@@ -1,0 +1,19 @@
+create employee
+
+http://localhost:8080/v1/employee
+
+{
+
+  "employeeName":"ABC123",
+  "designation":"SSE",
+  "status":"active"
+  
+}
+
+get employee details by id
+
+http://localhost:8080/v1/employee/1
+
+get employees by status
+
+http://localhost:8080/v1/employee?status=active
