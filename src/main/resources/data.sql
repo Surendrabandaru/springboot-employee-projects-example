@@ -13,3 +13,14 @@ create table employee(  eid int primary key,
                         created_date varchar2(100),
                         created_by varchar2(100)
                         );
+                 
+ 
+create table project(  pid int primary key,
+                        pname varchar2(100),
+                        description varchar2(30),
+                        client_name varchar2(30),
+                        start_date varchar2(100),
+                        end_date varchar2(100),
+                        team_size int,
+                        status varchar2(100)
+                        );                        
