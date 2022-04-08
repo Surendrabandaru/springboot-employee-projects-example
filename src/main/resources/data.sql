@@ -23,4 +23,14 @@ create table project(  pid int primary key,
                         end_date varchar2(100),
                         team_size int,
                         status varchar2(100)
-                        );                        
+                        );
+                        
+ create table projectemployee(  id int primary key,
+                        pid int,
+                        eid int,
+                        startDate varchar2(100),
+                        endDate varchar2(100),                     
+                        status varchar2(100),
+                        createdDate varchar2(100),
+                        createdBy varchar2(100)
+                        );             
