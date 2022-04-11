@@ -33,5 +33,5 @@ create table project(  pid int primary key,
                         status varchar2(100),
                         createdDate varchar2(100),
                         createdBy varchar2(100)
-                        );             
+                        );            
                         
